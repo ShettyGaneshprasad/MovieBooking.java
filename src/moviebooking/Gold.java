@@ -1,7 +1,7 @@
 package moviebooking;
 import java.util.*;
 public class Gold extends ticket
-	{
+{
 	
 		public void goldbook()
 		{
@@ -13,8 +13,9 @@ public class Gold extends ticket
 				gbooked++;
 				System.out.println("Gold ticket booked sucessfully");		
 			 }
-			else {
+			else 
+			{
 				System.out.println("NO more available ticket in gold section");
 			}
 		}
-	}
+}
