@@ -1,7 +1,6 @@
 package moviebooking;
 
-public class Platinum extends ticket
-	{
+public class Platinum extends ticket{
 	
 		public void platbook()
 		{
@@ -13,7 +12,8 @@ public class Platinum extends ticket
 				pbooked++;
 				System.out.println("Platinum ticket booked sucessfully");		
 			 }
-			else {
+			else
+			{
 				System.out.println("NO more available ticket in platinum section");
 			}
 		}
